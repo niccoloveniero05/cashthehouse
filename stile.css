@@ -499,3 +499,8 @@ ul,ol{margin:0;padding:0;list-style:none}
 @keyframes r58-rec-cenno{0%,100%{translate:0 0}40%{translate:-36px 0}70%{translate:6px 0}}
 
 @media (pointer:coarse){.piede .piccolo{line-height:2.2}.piede .piccolo a{display:inline-block;padding:8px 0;margin:-8px 0}}
+
+.video-logo{position:absolute;inset:0;display:grid;place-items:center;background:#221E19;pointer-events:none}   
+.video-logo b{font:400 clamp(1.7rem,3vw,2.4rem)/1 var(--titolo);letter-spacing:.015em;text-transform:uppercase;color:var(--crema);white-space:nowrap}
+.video-logo i{font-style:normal;color:var(--giallo)}
+.video-box.parte .video-logo{display:none}
